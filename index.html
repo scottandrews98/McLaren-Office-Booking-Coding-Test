@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script src="moment.js" type="text/Javascript"></script>
+        <script src="main.js" type="text/Javascript"></script>
+        <title>Mclaren Test</title>
+    </head>
+
+    <body>
+        <form>
+            <input type="file" accept="application/json" id="data" value="Dates File">
+            <button type="button" onmouseup="upload()">Process Bookings</button>
+
+            <div class="output" id="output">
+            </div>
+        </form>
+    </body>
+
+    <style>
+        form{
+            width: 500px;
+            background-color: #FF9E31;
+            min-height: 400px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+
+        input{
+            /* width: 100%; */
+            text-align: center;
+        }
+
+        button{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h4{
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            font-family: Arial;
+        }
+    </style>
+</html>
